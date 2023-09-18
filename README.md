@@ -5,6 +5,10 @@
 
 #The results achieved with this work, were benchmarked against some top of the line super resolution GAN models like SRGAN ESRGAN and it was evaluated that the results were much higher with my SIngle image GAN model as compared to large dataset dependant SRGAN and ESRGAN models.
 
+# DATA SET
+I performed this task of super resolution utilizing following data sets
+(1) COWC (Cars Overhead With Context) : This dataset was introduced by Mundhenk et al. in A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning. The Cars Overhead With Context (COWC) data set is a large set of annotated cars from overhead. It is useful for training a device such as a deep neural network to learn to detect and/or count cars. 
+
 #CODE
 
 Install dependencies
