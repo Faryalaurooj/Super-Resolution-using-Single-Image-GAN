@@ -3,7 +3,7 @@
 
 #Generally GANs learn from large datasets in order to generate fake images, known as conditional GANs. THere is another class of GANs known as unconditional GANs because they do not rely on large amount of images to learn the representations and generate fake images. This catagory of GANs learn from internal statistical distribution of a single image and based on that, they produce multiple fake images. IN this repo, i have worked on an un-conditional GAN model to perform task of produce high resolution images from low resolution images. To perfrom this task, i used BSD-100 dataset. 
 
-#THe results achieved with this work, were benchmarked against some top of the line super resolution GAN models like SRGAN ESRGAN and it was evaluated that the results were much higher with my SIngle image GAN model as compared to large dataset dependant SRGAN and ESRGAN models.
+#The results achieved with this work, were benchmarked against some top of the line super resolution GAN models like SRGAN ESRGAN and it was evaluated that the results were much higher with my SIngle image GAN model as compared to large dataset dependant SRGAN and ESRGAN models.
 
 #CODE
 
@@ -17,7 +17,7 @@ Please note: the code currently only supports torch 1.4 or earlier because of th
 
 For later torch versions, you may try this repository: https://github.com/kligvasser/SinGAN (results won't necessarily be identical to the official implementation).
 
-#Super Resolution
+#SUPER RESOLUTION
 
 To super resolve an image, please run:
 
