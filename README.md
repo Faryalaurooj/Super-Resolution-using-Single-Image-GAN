@@ -6,6 +6,7 @@
 #THe results achieved with this work, were benchmarked against some top of the line super resolution GAN models like SRGAN ESRGAN and it was evaluated that the results were much higher with my SIngle image GAN model as compared to large dataset dependant SRGAN and ESRGAN models.
 
 #CODE
+
 Install dependencies
 
 python -m pip install -r requirements.txt
@@ -15,4 +16,13 @@ This code was tested with python 3.6, torch 1.4
 Please note: the code currently only supports torch 1.4 or earlier because of the optimization scheme.
 
 For later torch versions, you may try this repository: https://github.com/kligvasser/SinGAN (results won't necessarily be identical to the official implementation).
+
+#Super Resolution
+
+To super resolve an image, please run:
+
+python SR.py --input_name <LR_image_file_name>
+
+This will automatically train the model corresponding to 4x upsampling factor (if not exist already). For different SR factors, please specify it using the parameter --sr_factor when calling the function. 
+Super resolution results on the BSD100 dataset can be download from the 'Downloads' folder.
 
