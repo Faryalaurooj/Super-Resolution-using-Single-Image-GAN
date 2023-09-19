@@ -6,7 +6,8 @@
 #The results achieved with this work, were benchmarked against some top of the line super resolution GAN models like SRGAN ESRGAN and it was evaluated that the results were much higher with my SIngle image GAN model as compared to large dataset dependant SRGAN and ESRGAN models.
 
 # DATA SET
-I performed this task of super resolution utilizing following data sets
+I performed this task of super resolution utilizing following data sets:-
+
 (1) BSD (Berkeley Segmentation Dataset) is a dataset Introduced by David R. Martin et al. in A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics. It is used frequently for image denoising and super-resolution. The dataset is composed of a large variety of images ranging from natural images to object-specific such as plants, people, food etc. BSD100 is the testing set of the Berkeley segmentation dataset BSD300. 
 @inproceedings{martin2001database,
   title={A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics},
