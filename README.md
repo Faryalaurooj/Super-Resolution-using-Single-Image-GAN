@@ -15,15 +15,12 @@ Install dependencies
 
 python -m pip install -r requirements.txt
 
-This code was tested with python 3.6, torch 1.4
+This code was tested with python 3.10.9, torch 1.12.1
 
-Please note: the code currently only supports torch 1.4 or earlier because of the optimization scheme.
-
-For later torch versions, you may try this repository: https://github.com/kligvasser/SinGAN (results won't necessarily be identical to the official implementation).
 
 #SUPER RESOLUTION
 
-To super resolve an image, please run:
+To super resolve an image using this GAN model with help of a single low resolution mage as an input, place the low resolution image inside input / images folder and  please run:
 
 python SR.py --input_name <LR_image_file_name>
 
