@@ -46,6 +46,6 @@ To super resolve an image using this GAN model with help of a single low resolut
 
 python SR.py --input_name <LR_image_file_name>
 
-This will automatically train the model corresponding to 4x upsampling factor (if not exist already). For different SR factors, please specify it using the parameter --sr_factor when calling the function. 
+This will automatically train the model corresponding to 4x upsampling factor (if not exist already). THe model will appear in the folder with the name "TrainedModels" . For different SR factors, please specify it using the parameter --sr_factor when calling the function. Output high resolution image will automatically save into Output folder.
 Super resolution results on the BSD100 dataset can be download from the 'Downloads' folder.
 
