@@ -7,7 +7,28 @@
 
 # DATA SET
 I performed this task of super resolution utilizing following data sets
-(1) COWC (Cars Overhead With Context) : This dataset was introduced by Mundhenk et al. in A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning. The Cars Overhead With Context (COWC) data set is a large set of annotated cars from overhead. It is useful for training a device such as a deep neural network to learn to detect and/or count cars. 
+(1) BSD (Berkeley Segmentation Dataset) is a dataset Introduced by David R. Martin et al. in A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics. It is used frequently for image denoising and super-resolution. The dataset is composed of a large variety of images ranging from natural images to object-specific such as plants, people, food etc. BSD100 is the testing set of the Berkeley segmentation dataset BSD300. 
+@inproceedings{martin2001database,
+  title={A database of human segmented natural images and its application to evaluating segmentation algorithms and measuring ecological statistics},
+  author={Martin, David and Fowlkes, Charless and Tal, Doron and Malik, Jitendra},
+  booktitle={Proceedings Eighth IEEE International Conference on Computer Vision. ICCV 2001},
+  volume={2},
+  pages={416--423},
+  year={2001},
+  organization={IEEE}
+}
+
+
+(2) COWC (Cars Overhead With Context) : This dataset was introduced by Mundhenk et al. in A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning. The Cars Overhead With Context (COWC) data set is a large set of annotated cars from overhead. It is useful for training a device such as a deep neural network to learn to detect and/or count cars. 
+@inproceedings{mundhenk2016large,
+  title={A large contextual dataset for classification, detection and counting of cars with deep learning},
+  author={Mundhenk, T Nathan and Konjevod, Goran and Sakla, Wesam A and Boakye, Kofi},
+  booktitle={Computer Vision--ECCV 2016: 14th European Conference, Amsterdam, The Netherlands, October 11-14, 2016, Proceedings, Part III 14},
+  pages={785--800},
+  year={2016},
+  organization={Springer}
+}
+
 
 #CODE
 
