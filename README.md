@@ -13,13 +13,23 @@ I performed this task of super resolution utilizing the following data sets:
 
 1. **BSD (Berkeley Segmentation Dataset)**: This dataset was introduced by David R. Martin et al. in "A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics." It is used frequently for image denoising and super-resolution. The dataset is composed of a large variety of images ranging from natural images to object-specific such as plants, people, food, etc. BSD100 is the testing set of the Berkeley segmentation dataset BSD300.
 
-2. **COWC (Cars Overhead With Context)**: This dataset was introduced by Mundhenk et al. in "A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning." The Cars Overhead With Context (COWC) data set is a large set of annotated cars from overhead. It is useful for training a device such as a deep neural network to learn to detect and/or count cars.
+2. **COWC (Cars Overhead With Context)**: This dataset was introduced by Mundhenk et al. in "A Large Contextual Dataset for Classification, Detection and Counting of Cars with Deep Learning." The Cars Overhead With Context (COWC) data set is a large set of annotated cars from overhead. It is useful for training a device such as a deep neural network to learn to detect and/or count cars. This code was tested with python 3.10.9, torch 1.12.1
 
-# CODE
+## CODE
 
 **Install dependencies**
 
 ```bash
 python -m pip install -r requirements.txt
+```
 
+This code was tested with Python 3.10.9 and Torch 1.12.1.
 
+## SUPER RESOLUTION
+
+To super-resolve an image using this GAN model with the help of a single low-resolution image as input, place the low-resolution image inside the input/images folder and please run:
+
+```
+python SR.py --input_name <LR_image_file_name>
+```
+This will automatically train the model corresponding to 4x upsampling factor (if not exist already). THe model will appear in the folder with the name "TrainedModels" . For different SR factors, please specify it using the parameter --sr_factor when calling the function. Output high resolution image will automatically save into Output folder. Super resolution results on the BSD100 dataset can be download from the 'Downloads' folder.
